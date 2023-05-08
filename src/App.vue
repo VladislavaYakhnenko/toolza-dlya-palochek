@@ -1,8 +1,11 @@
 <template>
-  <div>aboba</div>
+  <default-layout>
+    <div class="min-h-[80vh]"></div>
+  </default-layout>
 </template>
 
 <script setup lang="ts">
+import DefaultLayout from "@/layouts/DefaultLayout.vue";
 </script>
 
 <style scoped>
