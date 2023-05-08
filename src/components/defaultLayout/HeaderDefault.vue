@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-indigo-800 flex items-center justify-between px-6 py-4 shadow-lg">
+  <div class="w-full bg-indigo-900 flex items-center justify-between px-6 py-4 shadow-lg">
     <img
         class="w-10 h-10 rounded-full border-2 border-white"
         src="@/assets/dragons.jpg"

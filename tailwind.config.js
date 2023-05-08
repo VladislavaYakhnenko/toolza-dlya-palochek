@@ -6,6 +6,9 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'mobile': '540px'
+    },
     colors: {
       'white': '#ffffff',
       gray: colors.gray,
