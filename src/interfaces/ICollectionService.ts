@@ -1,3 +1,3 @@
-export default interface CollectionService {
+export default interface ICollectionService {
     getCollectionName(): string;
 }

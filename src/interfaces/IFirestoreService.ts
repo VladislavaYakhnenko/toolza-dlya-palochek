@@ -1,3 +1,3 @@
-export default interface FirestoreService {
+export default interface IFirestoreService {
     getAllDocsFromCollection(): any;
 }
