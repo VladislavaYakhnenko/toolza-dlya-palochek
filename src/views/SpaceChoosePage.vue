@@ -4,11 +4,11 @@
       Зроби найважливіший вибір у житті!
     </h1>
     <div class="flex gap-8 max-mobile:flex-col">
-      <router-link :to="CREATE_NEW_SPACE" tag="button" class="bg-indigo-300 text-xl rounded-lg px-8 py-6 text-indigo-900 hover:opacity-70 duration-200">
-        Створити новий спейс 🌌
+      <router-link :to="CREATE_NEW_SPACE">
+        <primary-button text="Створити новий спейс 🌌"/>
       </router-link>
-      <router-link :to="JOIN_SPACE" tag="button" class="bg-indigo-300 text-xl rounded-lg px-8 py-6 text-indigo-900 hover:opacity-70 duration-200">
-        Доєднатися до існуючого 👽
+      <router-link :to="JOIN_SPACE">
+        <primary-button text="Доєднатися до існуючого 👽"/>
       </router-link>
     </div>
   </div>
@@ -16,6 +16,7 @@
 
 <script setup>
 import {CREATE_NEW_SPACE, JOIN_SPACE} from "@/utils/routes_utils";
+import PrimaryButton from "@/components/ui/buttons/PrimaryButton.vue";
 </script>
 
 <style scoped>
