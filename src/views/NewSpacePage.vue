@@ -5,10 +5,14 @@
     </h1>
     <form class="bg-indigo-300 text-xl rounded-lg px-8 py-6 flex flex-col justify-center gap-4">
       <custom-input
+          required
+          v-model="spaceName"
           label="Введи назву:"
           placeholder="Назва"
       />
       <custom-input
+          required
+          v-model="spaceCode"
           label="Введи код:"
           placeholder="Код"
       />
@@ -21,10 +25,13 @@
   </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
 import CustomInput from "@/components/ui/CustomInput.vue";
 import SecondaryButton from "@/components/ui/buttons/SecondaryButton.vue";
+import {ref} from "vue";
+
+const spaceName = ref('');
+const spaceCode = ref('');
 </script>
 
 <style scoped>
