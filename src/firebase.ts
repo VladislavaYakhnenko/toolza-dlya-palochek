@@ -4,7 +4,6 @@ import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyD-s_bDPDy9yBhFKBI1neZMNly5rjXO_MI",
     authDomain: "toolza-dlya-palochek.firebaseapp.com",
@@ -14,7 +13,6 @@ const firebaseConfig = {
     appId: "1:977874808248:web:8af375f7a2b7b29b9cf34d"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
