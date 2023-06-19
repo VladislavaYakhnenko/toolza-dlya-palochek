@@ -5,12 +5,12 @@
         src="@/assets/dragons.jpg"
     />
     <Bars3Icon
-        class="w-8 h-8 text-white"
+        class="w-8 h-8 text-white cursor-pointer"
         v-if="showMenu"
         @click="showMenu = false"
     />
     <XMarkIcon
-        class="w-8 h-8 text-white"
+        class="w-8 h-8 text-white cursor-pointer"
         v-else
         @click="showMenu = true"
     />

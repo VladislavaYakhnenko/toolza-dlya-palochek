@@ -5,7 +5,7 @@
     </h1>
     <div class="flex gap-8 max-mobile:flex-col">
       <router-link :to="CREATE_NEW_SPACE">
-        <primary-button text="Створити новий спейс 🌌"/>
+        <primary-button text="Створити новий спейс 🌌" />
       </router-link>
       <router-link :to="JOIN_SPACE">
         <primary-button text="Доєднатися до існуючого 👽"/>

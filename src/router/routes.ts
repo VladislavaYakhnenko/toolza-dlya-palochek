@@ -1,10 +1,10 @@
 import {CREATE_NEW_SPACE, JOIN_SPACE} from "@/utils/routes_utils";
 // @ts-expect-error
-import NewSpacePage from "@/views/NewSpacePage.vue";
+import NewSpacePage from "@/pages/general/NewSpacePage.vue";
 // @ts-expect-error
-import JoinSpacePage from "@/views/JoinSpacePage.vue";
+import JoinSpacePage from "@/pages/general/JoinSpacePage.vue";
 // @ts-expect-error
-import SpaceChoosePage from "@/views/SpaceChoosePage.vue";
+import SpaceChoosePage from "@/pages/general/SpaceChoosePage.vue";
 
 const routes = [
     {

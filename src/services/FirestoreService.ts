@@ -1,5 +1,5 @@
 import {db} from "@/firebase";
-import { collection, doc, getFirestore, limit, orderBy, query, getDocs } from 'firebase/firestore'
+import { collection, doc, getFirestore, limit, orderBy, query, getDocs } from 'firebase/firestore';
 import ICollectionService from "@/interfaces/ICollectionService";
 
 export default class FirestoreService {
