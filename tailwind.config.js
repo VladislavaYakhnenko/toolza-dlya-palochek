@@ -15,7 +15,8 @@ export default {
       lime: colors.lime,
       fuchsia: colors.fuchsia,
       slate: colors.slate,
-      indigo: colors.indigo
+      indigo: colors.indigo,
+      black: colors.black
     },
     extend: {
       fontfamily: {
@@ -23,5 +24,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }
