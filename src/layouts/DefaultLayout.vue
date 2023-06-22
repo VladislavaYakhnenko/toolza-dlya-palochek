@@ -10,7 +10,6 @@
 
 <script setup lang="ts">
 import HeaderDefault from "@/components/defaultLayout/HeaderDefault.vue";
-import FooterDefault from "@/components/defaultLayout/FooterDefault.vue";
 
 </script>
 
