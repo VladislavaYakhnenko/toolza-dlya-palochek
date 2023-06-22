@@ -1,6 +1,7 @@
 <template>
-  <button class="w-full bg-indigo-900 text-xl rounded-lg px-8 py-6 text-white hover:opacity-90 duration-200">
+  <button class="w-full bg-indigo-900 text-xl rounded-lg text-white hover:opacity-90 duration-200">
     {{ text }}
+    <slot/>
   </button>
 </template>
 
@@ -9,8 +10,7 @@ interface Props {
   text?: string
 }
 
-const props = defineProps<Props>()
-
+const props = defineProps<Props>();
 </script>
 
 <style scoped>

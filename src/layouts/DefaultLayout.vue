@@ -1,19 +1,17 @@
 <template>
   <div class="w-full min-h-screen flex flex-col relative">
-    <header-default class="sticky z-50"/>
-    <slot/>
-    <footer-default/>
+    <header-default/>
+    <div class="mt-[72px]">
+      <slot/>
+    </div>
+<!--    <footer-default/>-->
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import HeaderDefault from "@/components/defaultLayout/HeaderDefault.vue";
 import FooterDefault from "@/components/defaultLayout/FooterDefault.vue";
 
-export default {
-  name: "DefaultLayout",
-  components: {FooterDefault, HeaderDefault}
-}
 </script>
 
 <style scoped>
